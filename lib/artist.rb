@@ -5,6 +5,10 @@ class Artist
   def initialize(name)
     @name = name
     @songs = []
+<<<<<<< HEAD
+=======
+    save
+>>>>>>> d96d0417ca19bc47bf3353f3a7f54e5e38ae6398
   end
 
   def add_song(song)
